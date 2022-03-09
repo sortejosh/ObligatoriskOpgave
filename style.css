@@ -1,0 +1,38 @@
+.center {
+    text-align: center;
+    border: 35px solid #f01a1a;
+    margin-top: 40px;
+    font-size:120%; width:100%
+    
+  }
+  
+  .sidebar {
+    height: 100%; 
+    width: 80px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #f01a1a; 
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2a27c4;
+    display: block;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;  
+    pointer-events: none;
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
